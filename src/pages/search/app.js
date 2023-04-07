@@ -5,7 +5,7 @@ import { cEl, gEl, removeBefore } from '../../utils/utils.js';
 import './style.css';
 
 window.addEventListener('DOMContentLoaded', () =>
-  createNav('/index', '/search')
+  createNav('js-neo-tv/index', '/search')
 );
 
 // List
@@ -94,5 +94,5 @@ const displayMain = () => {
 
 window.addEventListener('DOMContentLoaded', displayMain);
 window.addEventListener('DOMContentLoaded', () =>
-  createFooter('/index', './search')
+  createFooter('js-neo-tv/index', './search')
 );

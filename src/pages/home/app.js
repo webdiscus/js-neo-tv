@@ -11,11 +11,11 @@ import {
 // Project
 
 window.addEventListener('DOMContentLoaded', () =>
-  createNav('/index', '/search')
+  createNav('js-neo-tv/index', '/search')
 );
 
 window.addEventListener('DOMContentLoaded', createHero);
 window.addEventListener('DOMContentLoaded', createMain);
 window.addEventListener('DOMContentLoaded', () =>
-  createFooter('/index', '/search')
+  createFooter('js-neo-tv/index', '/search')
 );
