@@ -4,7 +4,9 @@ import { cEl, gEl, removeBefore } from '../../utils/utils.js';
 
 import './style.css';
 
-window.addEventListener('DOMContentLoaded', () => createNav('/', '/search'));
+window.addEventListener('DOMContentLoaded', () =>
+  createNav('/js-neo-tv/index', '/js-neo-tv/search')
+);
 
 // List
 
@@ -91,4 +93,6 @@ const displayMain = () => {
 };
 
 window.addEventListener('DOMContentLoaded', displayMain);
-window.addEventListener('DOMContentLoaded', () => createFooter('/', '/search'));
+window.addEventListener('DOMContentLoaded', () =>
+  createFooter('/js-neo-tv/index', '/js-neo-tv/search')
+);

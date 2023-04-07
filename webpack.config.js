@@ -10,7 +10,7 @@ module.exports = {
     search: path.resolve(__dirname, './src/pages/search/app.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     publicPath: '/js-neo-tv/',
     filename: '[name].js',
   },
@@ -24,7 +24,7 @@ module.exports = {
 
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'),
+      directory: path.resolve(__dirname, 'docs'),
     },
     hot: true,
     open: true,
