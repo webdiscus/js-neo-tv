@@ -10,8 +10,12 @@ import {
 
 // Project
 
-window.addEventListener('DOMContentLoaded', () => createNav('/', '/search'));
+window.addEventListener('DOMContentLoaded', () =>
+  createNav('./index', './search')
+);
 
 window.addEventListener('DOMContentLoaded', createHero);
 window.addEventListener('DOMContentLoaded', createMain);
-window.addEventListener('DOMContentLoaded', () => createFooter('/', '/search'));
+window.addEventListener('DOMContentLoaded', () =>
+  createFooter('./index', './search')
+);
