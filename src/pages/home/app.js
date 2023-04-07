@@ -10,12 +10,8 @@ import {
 
 // Project
 
-window.addEventListener('DOMContentLoaded', () =>
-  createNav('js-neo-tv/index', '/search')
-);
+window.addEventListener('DOMContentLoaded', () => createNav('/', '/search'));
 
 window.addEventListener('DOMContentLoaded', createHero);
 window.addEventListener('DOMContentLoaded', createMain);
-window.addEventListener('DOMContentLoaded', () =>
-  createFooter('js-neo-tv/index', '/search')
-);
+window.addEventListener('DOMContentLoaded', () => createFooter('/', '/search'));
