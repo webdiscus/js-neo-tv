@@ -4,9 +4,7 @@ import { cEl, gEl, removeBefore } from '../../utils/utils.js';
 
 import './style.css';
 
-window.addEventListener('DOMContentLoaded', () =>
-  createNav('./index', './search')
-);
+window.addEventListener('DOMContentLoaded', () => createNav('/', '/search'));
 
 // List
 
@@ -93,6 +91,4 @@ const displayMain = () => {
 };
 
 window.addEventListener('DOMContentLoaded', displayMain);
-window.addEventListener('DOMContentLoaded', () =>
-  createFooter('./index', './search')
-);
+window.addEventListener('DOMContentLoaded', () => createFooter('/', '/search'));

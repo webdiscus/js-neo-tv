@@ -11,6 +11,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/js-neo-tv/',
     filename: '[name].js',
   },
   devtool: 'eval-source-map',
