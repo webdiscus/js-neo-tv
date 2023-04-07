@@ -2,10 +2,8 @@ import { GET_2 } from '../../utils/api.js';
 import { createNav, createFooter } from '../../utils/functions.js';
 import { cEl, gEl, removeBefore } from '../../utils/utils.js';
 
-import './style.css';
-
 window.addEventListener('DOMContentLoaded', () =>
-  createNav('/js-neo-tv/index', '/js-neo-tv/search')
+  createNav('/js-neo-tv/', '/js-neo-tv/search.html')
 );
 
 // List
@@ -94,5 +92,5 @@ const displayMain = () => {
 
 window.addEventListener('DOMContentLoaded', displayMain);
 window.addEventListener('DOMContentLoaded', () =>
-  createFooter('/js-neo-tv/index', '/js-neo-tv/search')
+  createFooter('/js-neo-tv/', '/js-neo-tv/search.html')
 );

@@ -1,6 +1,3 @@
-// Imports
-import './style.css';
-
 import {
   createNav,
   createHero,
@@ -11,11 +8,11 @@ import {
 // Project
 
 window.addEventListener('DOMContentLoaded', () =>
-  createNav('/js-neo-tv/index', '/js-neo-tv/search')
+  createNav('/js-neo-tv/', '/js-neo-tv/search.html')
 );
 
 window.addEventListener('DOMContentLoaded', createHero);
 window.addEventListener('DOMContentLoaded', createMain);
 window.addEventListener('DOMContentLoaded', () =>
-  createFooter('/js-neo-tv/index', '/js-neo-tv/search')
+  createFooter('/js-neo-tv/', '/js-neo-tv/search.html')
 );
